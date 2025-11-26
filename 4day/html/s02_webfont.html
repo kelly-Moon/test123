@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <!-- 웹폰트 standard 방식 -> <head>안에 <link>로 가져온다 -->
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+        @font-face {
+            font-family: 'PyeongChangPeace-Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'GmarketSansMedium';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*import 방식 : <style>안에 가져온다*/
+
+        #header { font-family: 'Nanum Gothic', sans-serif; font-weight: 800; font-size: 45px;}
+        #section01 { font-family: 'Sedgwick Ave Display', cursive; font-size: 25px;}
+        #section02 {font-family: 'Black Han Sans', sans-serif; font-size: 30px;}
+        #section03 { font-family: 'Rubik Pixels', cursive; font-size: 30px;}
+        #section04 {font-family: 'PyeongChangPeace-Bold'; font-size: 40px;}
+        #section05 {font-family: 'GmarketSansLight'; font-size: 50px; }
+        /* 웹폰트 사용하는 이유:
+            내가 사용한 서체가 다른 사람(클라이언트) 컴퓨터에 없으면 서체는 기본 서체로 바뀐다.
+            그러면 디자인이 깨진다. 그래서 꼭 웹폰트를 사용한다.        
+        */
+    </style>   
+</head>
+<body>
+    <div id="header">웹폰트 사용하기</div>
+    <div id="section01">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </div>
+    <div id="section02">
+        국정의 중요한 사항에 관한 대통령의 자문에 응하기 위하여 국가원로로 구성되는 국가원로자문회의를 둘 수 있다. 예비비는 총액으로 국회의 의결을 얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 대통령이 궐위된 때 또는 대통령 당선자가 사망하거나 판결 기타의 사유로 그 자격을 상실한 때에는 60일 이내에 후임자를 선거한다.
+    </div>
+    <div id="section03">
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+    </div>
+    <div id="section04">
+        법관이 중대한 심신상의 장해로 직무를 수행할 수 없을 때에는 법률이 정하는 바에 의하여 퇴직하게 할 수 있다. 국가는 균형있는 국민경제의 성장 및 안정과 적정한 소득의 분배를 유지하고, 시장의 지배와 경제력의 남용을 방지하며, 경제주체간의 조화를 통한 경제의 민주화를 위하여 경제에 관한 규제와 조정을 할 수 있다.
+    </div>
+    <div id="section05">
+        법관이 중대한 심신상의 장해로 직무를 수행할 수 없을 때에는 법률이 정하는 바에 의하여 퇴직하게 할 수 있다. 국가는 균형있는 국민경제의 성장 및 안정과 적정한 소득의 분배를 유지하고, 시장의 지배와 경제력의 남용을 방지하며, 경제주체간의 조화를 통한 경제의 민주화를 위하여 경제에 관한 규제와 조정을 할 수 있다.
+    </div>
+</body>
+</html>

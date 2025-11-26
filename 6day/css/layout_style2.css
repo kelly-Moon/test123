@@ -1,0 +1,125 @@
+/* reset */
+* { margin: 0; padding: 0;}
+li { list-style: none;}
+a { text-decoration: none;}
+
+/* outline */
+#wrap {
+    width: 760px;
+    background-color: gray;
+    margin: 0 auto;
+}
+#header {
+    /* width: 760px; height: 160px; */
+    width: 740px; height: 140px;
+    background-color: aqua;
+    padding: 10px;
+}
+#contents {
+    /* width: 760px; height: 780px; */
+    width: 740px; height: 760px;
+    background-color: #ff7c7c;
+    padding: 10px;
+}
+#footer {
+    /* width: 760px; height: 80px; */
+    width: 740px; height: 60px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+/*******header******/
+#logo {
+    width: 160px; height: 140px;
+    background-color: blue;
+    float: left;
+}
+#lnb {
+    width: 320px; height: 30px;
+    background-color: #8282ff;
+    float: right;
+    margin-bottom: 60px;
+}
+#gnb {
+    /* width: 570px; height: 50px; */
+    width: 550px; height: 30px;
+    background-color: #c0c0f6;
+    float: right;
+    padding: 10px;
+}
+#gnb ul {
+    overflow: hidden;
+    /* 자식한테 float 속성이 있으면 부모한테 overflow : hidden 속성값을 준다*/
+}
+#gnb ul li {
+    width: 130px; height: 30px;
+    background-color: yellow;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+#gnb ul li:last-child { margin: 0;}
+#gnb ul li a {
+   font-size: 18px;color: #000;font-weight: bold;
+}
+#gnb ul li a:hover {
+    color: red;
+}
+
+/*****contents*****/
+#contents>div { float: left; padding: 10px;}
+div#section01 {
+    width: 740px; height: 250px;
+    background-color: #8282ff;
+    margin-bottom: 10px;
+    padding: 0;
+}
+#section02 {
+    width: 470px; height: 140px;
+    background-color: #b6b6f6;
+    margin-right: 10px;
+}
+#section03 {
+    width: 220px; height: 140px;
+    background-color: #c1c1f3;
+    margin-bottom: 10px;
+}
+#section04 {
+    width: 220px; height: 140px;
+    background-color: #4545ab;
+    margin-right: 10px;
+}
+#section05 {
+    width: 220px; height: 140px;
+    background-color: #171775;
+    margin-right: 10px;
+}
+#section06 {
+    width: 220px; height: 140px;
+    background-color: #090957;
+}
+#section07 {
+    width: 220px; height: 140px;
+    background-color: #014a50;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#section08 {
+    width: 470px; height: 140px;
+    background-color: #007c71;
+    margin-top: 10px;
+}
+
+/****footer*****/
+#foot_box01 {
+    width: 190px; height: 60px;
+    background-color: #000000;
+    float: left;
+}
+#foot_box02 {
+    width: 540px; height: 30px;
+    background-color: #090957;
+    margin-top: 30px;
+    float: right;
+}

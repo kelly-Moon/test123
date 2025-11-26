@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        #header { width: 600px; height: 200px; background-color: yellow;}
+        #section { width: 600px; height: 500px; background-color: aqua;}
+        #header>h1 {color: red;}
+        /* 
+            A B : A의 후손(자손)인 B 
+            A>B : A의 자식(아들)인 B
+        */
+
+        #header #nav h1 { color: green;}
+        
+        #section h1 { color: brown; background-color: cadetblue;}
+        #section h2 { color: blue;}
+        #section h2 em { color: red;}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>APPLE</h1>
+        <div id="nav">
+            <h1>Navigation</h1>
+        </div>
+    </div>
+    <div id="section">
+        <h1>I-Phone</h1>
+        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+        <h2>This headline is <em>very</em> important!</h2>
+    </div>
+   
+</body>
+</html>

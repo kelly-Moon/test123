@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p { font-family: "나눔명조";} /*폰트의 기본 사이즈는 16px*/
+        .font16 { font-size: 16px;} 
+        .font24 { font-size: 24px; font-style: italic;}
+        .font36 { font-size: 36px; font-weight: bold;}
+        .font48 { font-size: 48px;}
+        .font48 em { font-style: normal; color: red;}
+        .font48 strong { font-weight: normal; background-color: aqua;}
+
+        div { font-size: 25px;}
+        .font_1em { font-size: 1em;} /*25x1*/
+        .font_2em { font-size: 2em;} /*25x2*/
+        .font_3em { font-size: 3em;} /*25x3*/
+        .font_4em { font-size: 4em;} /*25x4*/
+        /* em : 부모의 폰트사이즈가 기준으로 상대값 */
+
+        html { font-size: 30px;} 
+        .font_1rem { font-size: 1rem;}
+        .font_2rem { font-size: 2rem;}
+        .font_3rem { font-size: 3rem;}
+        .font_4rem { font-size: 4rem;}
+        /* rem : root 즉 최상위 부모인 html의 상대값 , em 직계부모한테 영향을 받지 않는다 */
+
+        .ppp { 
+            /* font-family: "나눔스퀘어"; 
+            font-size: 48px; 
+            font-weight: bold; 
+            font-style: italic; */
+            font : bold italic 48px "나눔스퀘어";
+            /* 축약형 */
+        }
+    </style>
+</head>
+<body>
+    <p>동해물과 백두산이 마르고 닳도록 하느님이 보우하사- 기본사이즈</p>
+    <p class="font16">동해물과 백두산이 마르고 닳도록 하느님이 보우하사- 16px</p>
+    <p class="font24">동해물과 백두산이 마르고 닳도록 하느님이 보우하사- 24px</p>
+    <p class="font36">동해물과 백두산이 마르고 닳도록 하느님이 보우하사- 36px</p>
+    <p class="font48">동해물과 <em>백두산이</em> 마르고 닳도록 <strong>하느님이</strong>  보우하사- 48px</p>
+
+    <div>
+        <p class="font_1em">무궁화 삼천리 화려 강산 대한사람 대한으로 길이 보전하세 - 1em</p>
+        <p class="font_2em">무궁화 삼천리 화려 강산 대한사람 대한으로 길이 보전하세 - 2em</p>
+        <p class="font_3em">무궁화 삼천리 화려 강산 대한사람 대한으로 길이 보전하세 - 3em</p>
+        <p class="font_4em">무궁화 삼천리 화려 강산 대한사람 대한으로 길이 보전하세 - 4em</p>
+
+        <p class="font_1rem">남산 위에 저 소나무 철갑을 두른듯 바람서리 불변함은 우리 기상일세 - 1rem</p>
+        <p class="font_2rem">남산 위에 저 소나무 철갑을 두른듯 바람서리 불변함은 우리 기상일세 - 2rem</p>
+        <p class="font_3rem">남산 위에 저 소나무 철갑을 두른듯 바람서리 불변함은 우리 기상일세 - 3rem</p>
+        <p class="font_4rem">남산 위에 저 소나무 철갑을 두른듯 바람서리 불변함은 우리 기상일세 - 4rem</p>
+    </div>
+    <p class="ppp">축약형만들기</p>
+</body>
+</html>

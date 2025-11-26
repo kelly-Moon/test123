@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        header { 
+            width: 600px; height: 300px; 
+            background-color: yellow;
+            margin: 0 auto;
+            position: relative;
+            /*절대좌표의 기준점*/
+        }
+        section {
+            width: 600px; height: 500px;
+            background-color: aqua;
+            margin: 0 auto;
+        }
+        header h1 {
+            width: 100px; height: 50px;
+            background-color: hotpink;
+            position: absolute;
+            left: 20px; top: 20px;
+        }
+        header nav {
+            width: 300px; height: 50px;
+            background-color: dodgerblue;
+            position: absolute;
+            bottom: 0; right: 0;
+        }
+        header #login {
+            width: 200px; height: 30px;
+            background-color:green;
+            position: absolute;
+            top: 0; right: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>APPLE</h1>
+        <nav>navigation</nav>
+        <div id="login">로그인/회원가입</div>
+    </header>
+    <section>
+        Laboris ut nostrud eu ad veniam ex ipsum mollit esse anim qui sint dolor. Lorem anim sunt reprehenderit amet. In ullamco ex non Lorem ipsum est esse aliquip culpa occaecat ex adipisicing laborum do. Cupidatat velit consequat fugiat mollit.
+    </section>
+</body>
+</html>

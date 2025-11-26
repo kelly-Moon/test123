@@ -1,0 +1,27 @@
+#header {
+    width: 600px;
+    height: 200px;
+    background-color: #71eaff;
+}
+#header h1 {
+    color:yellow;
+}
+#header .nav h2 {
+    color: #9c3868;
+}
+#section {
+    width: 600px;
+    background-color: yellow;
+}
+#footer {
+    width: 600px;
+    height: 100px;
+    background-color: green;
+}
+
+/* 스타일시트 순서
+    외부 => 내부 => 인라인
+    인라인 권장 X
+
+    외부 스타일 시트를 대부분 사용한다.
+*/

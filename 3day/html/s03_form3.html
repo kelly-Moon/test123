@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        성별 : 
+        <input type="radio" name="gender" value="male" checked>남성
+        <input type="radio" name="gender" value="female">여성
+        <!-- 라디오 : 중복 선택 불가능 -->
+    </form>
+    <form action="">
+        과일선택:
+        <input type="checkbox" name="fruits" value="apple" checked>사과
+        <input type="checkbox" name="fruits" value="banana">바나나
+        <input type="checkbox" name="fruits" value="strawberry">딸기
+        <input type="checkbox" name="fruits" value="pear">배
+        <input type="checkbox" name="fruits" value="orange">오랜지
+        <input type="checkbox" name="fruits" value="graph">포도
+        <!-- 체크박스 : 중복 선택 가능 -->
+    </form>
+    <hr>
+     <form action="">
+        성별 : <br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">남성</label>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">여성</label>
+        <!-- input type radio의 id값이랑 label의 for값을 같게 만든다 -->
+     </form>
+     <hr>
+     <form action="">
+        아이디 : <input type="text" name="user"><br>
+        이름 : <input type="text" name="user"><br>
+        <input type="button" value="입력" onclick="alert('반갑습니다')">
+     </form>
+
+     <button onclick="alert('안녕하세요')">누르시오</button>
+
+     <form action="">
+        물품가격 : <input type="text"><br>
+        수량 : <input type="text"><br>
+        <input type="button" value="계산" onclick="alert('10,000원입니다')">
+     </form>
+     <form action="">
+        아이디 : <input type="text"><br>
+        비번 : <input type="password"><br>
+        <input type="image" src="../img/btn.jpg" alt="제출버튼">
+     </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

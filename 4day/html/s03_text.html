@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 { text-align: center;}
+        h2 { width: 900px; background-color: yellow; text-align: right;}
+        .shadow { font-size: 50px; font-weight: bold; color: #138ba7;
+                text-shadow: 2px 2px 2px #5c5c5c;
+                             /*x y blur color   */
+            }
+        .box { width: 300px; height: 300px; background-color: #adcb2a;
+                box-shadow: 5px 5px 5px #5c5c5c;
+        }
+        #wrap { width: 900px; height: 500px; background-color: rgb(250, 250, 159);}
+        .date { text-align: center; font-size: 30px; text-decoration: underline;}
+        .txt {
+            line-height: 25px; /*글자의 위아래 높이 -텍스트의 행간*/
+            letter-spacing: -2px; /*자간*/
+            column-count: 2; /*단수 만들기*/
+            column-gap: 50px; /*단과 단 간격*/
+            text-indent: 30px; /*들여쓰기*/
+        }
+        .trans1 { text-transform: uppercase; font-size: 30px;} /*소문자->대문자*/
+        .trans2 { text-transform: lowercase; font-size: 30px;} /*대문자 ->소문자*/
+        .trans3{ text-transform: capitalize; font-size: 30px;} /*단어의 앞글자만 대문자*/
+    </style>
+</head>
+<body>
+    <h1>Good Morning</h1>
+    <h2>Good Afternoon!!</h2>
+    <p class="shadow">Text Shadow</p>
+    <div class="box"></div>
+
+    <div id="wrap">
+        <p class="date">2023년 4월20일</p>
+        <p class="txt">
+            헌법에 의하여 체결·공포된 조약과 일반적으로 승인된 국제법규는 국내법과 같은 효력을 가진다. 대통령이 궐위된 때 또는 대통령 당선자가 사망하거나 판결 기타의 사유로 그 자격을 상실한 때에는 60일 이내에 후임자를 선거한다.
+
+            체포·구속·압수 또는 수색을 할 때에는 적법한 절차에 따라 검사의 신청에 의하여 법관이 발부한 영장을 제시하여야 한다. 다만, 현행범인인 경우와 장기 3년 이상의 형에 해당하는 죄를 범하고 도피 또는 증거인멸의 염려가 있을 때에는 사후에 영장을 청구할 수 있다.
+
+            이 헌법시행 당시의 법령과 조약은 이 헌법에 위배되지 아니하는 한 그 효력을 지속한다. 정부는 회계연도마다 예산안을 편성하여 회계연도 개시 90일전까지 국회에 제출하고, 국회는 회계연도 개시 30일전까지 이를 의결하여야 한다.
+        </p>
+        <p class="trans1">are you ok?</p>
+        <p class="trans2">ARE YOU OK?</p>
+        <p class="trans3">are you ok?</p>
+    </div>
+</body>
+</html>

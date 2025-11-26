@@ -1,0 +1,21 @@
+p:nth-child(1) { border : 2px solid red; width: 900px; }
+p:nth-child(2) { border : 3px dotted blue; width: 900px; }
+p:nth-child(3) { border : 3px dashed green; width: 900px; }
+p:nth-child(4) { border : 3px double purple; width: 900px; }
+p:nth-child(5) { border : 8px groove peru; width: 900px; }
+p:nth-child(6) { border : 8px ridge gold; width: 900px; }
+p:nth-child(7) { border : 5px inset magenta; width: 900px; }
+p:nth-child(8) { border : 5px outset plum; width: 900px; }
+
+p:nth-child(9) { 
+        width: 900px; height: 50px;
+        background-color: #4b1cbb;
+        color: #fff;
+        border : 5px solid #c55acd; 
+        border-radius: 30px 20px;
+        box-shadow: 5px 5px 5px #323232;
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+    }

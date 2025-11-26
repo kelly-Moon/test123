@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        div { width: 100px; height: 100px;}
+        div:nth-child(1) { 
+            background-color: red;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 8;
+        }
+        div:nth-child(2) { 
+            background-color: green;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: -1000;
+        }
+        div:nth-child(3) { 
+            background-color: yellow;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            z-index: 1001;
+        }
+        div:nth-child(4) { 
+            background-color: blue;
+            position: absolute;
+            top: 60px;
+            left: 60px;
+            z-index: -10;
+        }
+        /* z-index는 레이어(층)의 순서
+            숫자의 크기랑 무관하게 서로 비교해서 순서 결정
+        */
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

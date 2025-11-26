@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout01</title>
+    <style>
+        /* reset */
+        * { margin: 0; padding: 0;}
+
+        #wrap { width: 900px; margin: 0 auto;}
+        #header { width: 900px; height: 100px; background-color: #5fc9d1; margin-bottom: 10px;}
+        #nav { width: 290px; height: 500px; background-color: #9e5fc5; float: left; }
+        #content { width: 600px; height: 500px; background-color: #bb1585; float: right;
+        margin-bottom: 10px;}
+        #footer { width: 900px; height: 100px; background-color: #60af34; clear: both; 
+            /*clear : both 내가 형제의 float 의 속성을 차단한다*/
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">header</div>
+        <div id="nav">nav</div>
+        <div id="content">content</div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>

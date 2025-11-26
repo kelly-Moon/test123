@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * { margin: 0; padding: 0;}
+        div { width: 100px; height: 100px; font-weight: bold;}
+        div:nth-child(1) { background-color: #fef76d;}
+        div:nth-child(2) { background-color: #ffb760; 
+                           margin: 20px;
+                        /* margin : top right bottm left 
+                            형제와 형제 사이를 벌려준다
+                        */
+        }
+        div:nth-child(3) { background-color: #f97b1a;
+                        padding: 20px;
+                        /* padding : top right bottom left
+                            부모가 자식을 감싼다. 그래서 부모는 패딩의 수치만큼 뚱뚱해진다.
+                        */
+        }
+        div:nth-child(4) { background-color: #ff6016;
+                        border: 10px solid #000;
+        }
+        /* Total Width = Width  + 2(margin + padding + boder)*/
+        div:nth-child(5) { background-color: #ff4112;
+            margin: 20px; padding: 20px; border: 10px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div>box01</div>
+    <div>box02</div>
+    <div>box03</div>
+    <div>box04</div>
+    <div>box05</div>
+</body>
+</html>
